@@ -382,7 +382,7 @@ input:checked + .slider:before {
 
 /* Style for Learn More Button */
 .learn-more-btn {
-  color: #006ee5; /* Updated color for better contrast */
+  color: #006ee5; 
   font-size: 1.1rem;
   text-decoration: none;
   border: 1px solid transparent;
@@ -392,17 +392,13 @@ input:checked + .slider:before {
 }
 
 .learn-more-btn:hover,
-.learn-more-btn:focus {
-  background-color: #006ee5; /* Maintain hover state color */
-  color: #fff;
-  border: 1px solid #006ee5;
-}
+  
 
 /* Change color based on checkbox state */
 /* When the checkbox is checked */
 /* Label turns green when the checkbox is checked */
 .form-check-input:checked + .form-check-label {
-  color: green;
+  color: #053EB1;
 }
 
 /* Label resets to default color when the checkbox is unchecked */
